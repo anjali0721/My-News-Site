@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DailyFlash - Live News</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📰 DailyFlash</h1>
+    <input type="text" id="searchBox" placeholder="Search news..." />
+  </header>
+
+  <nav class="categories">
+    <button class="category active" data-category="general">General</button>
+    <button class="category" data-category="technology">Technology</button>
+    <button class="category" data-category="business">Business</button>
+    <button class="category" data-category="sports">Sports</button>
+    <button class="category" data-category="entertainment">Entertainment</button>
+    <button class="category" data-category="health">Health</button>
+    <button class="category" data-category="science">Science</button>
+  </nav>
+
+  <main id="newsContainer"></main>
+
+  <div class="load-more">
+    <button id="loadMoreBtn">Load More</button>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by Anjali | Powered by NewsAPI.org</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
